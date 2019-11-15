@@ -1,0 +1,1 @@
+["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"2.12.4":{"hashes":[["/home/ec2-user/environment/bowling-challenge-2.0/src/test/scala/bowling/scorecardTest.scala","a1683fae0c73214edd86e8938963f603556a9463"]],"lastModifiedTimes":[]}}]
