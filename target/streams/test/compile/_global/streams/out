@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/ec2-user/environment/bowling-challenge-2.0/src/test/scala/bowling/scorecardTest.scala:10:15: value score is not a member of bowling.Scorecard[0m
-[0m[[0m[31merror[0m] [0m[0m				assert(sc.score === 0)[0m
-[0m[[0m[31merror[0m] [0m[0m				          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ec2-user/environment/bowling-challenge-2.0/src/test/scala/bowling/scorecardTest.scala:17:8: value recordRoll is not a member of bowling.Scorecard[0m
+[0m[[0m[31merror[0m] [0m[0m				sc.recordRoll(3)[0m
+[0m[[0m[31merror[0m] [0m[0m				   ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

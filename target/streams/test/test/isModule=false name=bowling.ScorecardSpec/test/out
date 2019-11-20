@@ -2,3 +2,5 @@
 [0m[[0m[0minfo[0m] [0m[0m[32mBowling scorecard[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m  when new[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m  - should start at 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  after some pins are knocked down[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should record the total[0m[0m

@@ -9,6 +9,14 @@ class ScorecardSpec extends FunSpec {
 				val sc = new Scorecard
 				assert(sc.score === 0)
 			}
-		}	
+		}
+		
+		describe("after some pins are knocked down") {
+			it("should record the total") {
+				val sc = new Scorecard
+				sc.recordRoll(3)
+				assert(sc.score === 3)
+			}
+		}
 	}
 }
