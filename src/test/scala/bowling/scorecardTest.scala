@@ -17,6 +17,13 @@ class ScorecardSpec extends FunSpec {
 				sc.recordRoll(3)
 				assert(sc.score === 3)
 			}
+			
+			it("should record multiple rolls") {
+				val sc = new Scorecard
+				sc.recordRoll(3)
+				sc.recordRoll(6)
+				assert(sc.score === 9)
+			}
 		}
 	}
 }
