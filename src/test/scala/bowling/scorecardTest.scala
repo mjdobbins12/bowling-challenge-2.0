@@ -7,7 +7,7 @@ class ScorecardSpec extends FunSpec {
 		describe("when new") {
 			it("should start at 0") {
 				val sc = new Scorecard
-				assert(sc.score === 0)
+				assert(sc.score == 0)
 			}
 		}
 		
@@ -15,14 +15,22 @@ class ScorecardSpec extends FunSpec {
 			it("should record the total") {
 				val sc = new Scorecard
 				sc.recordRoll(3)
-				assert(sc.score === 3)
+				assert(sc.score == 3)
 			}
 			
 			it("should record multiple rolls") {
 				val sc = new Scorecard
 				sc.recordRoll(3)
 				sc.recordRoll(6)
-				assert(sc.score === 9)
+				assert(sc.score == 9)
+			}
+			
+			it("should record a bonus for a strike") {
+				val sc = new Scorecard
+				sc.recordRoll(10)
+				sc.recordRoll(3)
+				sc.recordRoll(1)
+				assert(sc.score == 18) 
 			}
 		}
 	}
