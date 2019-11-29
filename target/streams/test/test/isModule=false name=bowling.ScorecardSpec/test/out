@@ -6,3 +6,4 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m  - should record the total[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m  - should record multiple rolls[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m  - should record a bonus for a strike[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should only give a bonus for the next two rolls[0m[0m

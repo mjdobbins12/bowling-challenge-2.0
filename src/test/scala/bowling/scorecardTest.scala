@@ -32,6 +32,16 @@ class ScorecardSpec extends FunSpec {
 				sc.recordRoll(1)
 				assert(sc.score == 18) 
 			}
+			
+			it("should only give a bonus for the next two rolls") {
+				val sc = new Scorecard
+				sc.recordRoll(10)
+				sc.recordRoll(3)
+				sc.recordRoll(1)
+				sc.recordRoll(3)
+				sc.recordRoll(1)
+				assert(sc.score == 22)
+			}
 		}
 	}
 }
